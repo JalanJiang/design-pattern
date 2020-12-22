@@ -4,10 +4,11 @@
  * @Version: v1.0
  * @Author: JalanJiang
  * @Date: 2020-12-02 10:30:53
- * @LastEditTime: 2020-12-02 10:45:52
+ * @LastEditTime: 2020-12-22 14:57:35
  */
 class TreeFactory
 {
+    // pool
     public static $treeType;
 
     public static function getTreeType(string $name, string $color, string $texture)
